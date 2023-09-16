@@ -1,0 +1,18 @@
+#wpbody {position: relative !important;  }
+#wpbody #wpbody-content {border-radius: 10px; background-color: #fff !important; text-align: center !important; padding: 30px !important; box-shadow: 0 0 9px rgba(0, 0, 0, .24) !important;}
+#add_telefone {margin: 5px 0 30px 0; border: 0; width: 100%;}
+input {width: 100%; margin-bottom: 10px;}
+.bt-contato {width: 65%; padding: 10px 15px; border: 0; border-radius: 50px; font-size: 18px; transition: ease-in-out .4s;}
+.bt-contato:hover {cursor: pointer; transform: scale(.95); transition: ease-in-out .4s;}
+
+
+
+/* Responsivo */
+@media only screen and (min-width: 981px){
+#wpbody {height: 100vh !important; display: flex !important; align-items: center !important; justify-content: center !important;}
+#wpbody #wpbody-content {max-width: 500px !important;}
+}
+
+@media only screen and (max-width: 980px){
+#wpbody #wpbody-content {width: 80% !important;}
+}
